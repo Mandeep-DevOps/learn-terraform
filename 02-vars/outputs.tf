@@ -18,3 +18,6 @@ output "Value-in-Map1" {
   value = lookup (var.v3, "abc1", "null")
 }
 
+output "Second-value-in-List1" {
+  value = element(var.v2, 4)
+}
