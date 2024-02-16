@@ -15,6 +15,6 @@ output "Value-in-Map" {
 }
 
 output "Value-in-Map1" {
-  value = lookup (var.v3, "abc1", null)
+  value = lookup (var.v3, "abc1", "null")
 }
 
