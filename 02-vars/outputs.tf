@@ -23,6 +23,6 @@ output "Second-value-in-List1" {
 }
 
 output "FruitDetails" {
-  value = "Fruit Name -Apple, Quantity -${var.fruits["apple"]["quantity"]}"
+  value = "Fruit Name - Apple, Quantity - ${var.fruits["apple"]["quantity"]}"
 }
 
