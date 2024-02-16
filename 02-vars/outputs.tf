@@ -11,6 +11,6 @@ output "Second-value-in-List" {
 }
 
 output "Value-in-Map" {
-  value = var.v3[abc]
+  value = var.v3["abc"]
 }
 
