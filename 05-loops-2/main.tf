@@ -10,7 +10,7 @@ variable "fruits2" {
   default = {
     apple = {
       name = "apple"
-      quantity = 10 {
+      quantity = 10
     }
     banana = {
       name = "banana"
@@ -25,3 +25,4 @@ resource "null_resource" "test-test" {
     command = "echo ${each.key} = ${each.value}"
   }
 }
+
