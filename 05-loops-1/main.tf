@@ -33,3 +33,4 @@ resource "aws_instance" "test-test" {
     Name = element(var.components, count.index)
   }
 }
+
