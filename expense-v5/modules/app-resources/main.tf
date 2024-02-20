@@ -13,7 +13,7 @@ resource "aws_route53_record" "records" {
   name     = var.name
   type     = "A"
   ttl      = 30
-#  records = [lookup(lookup(aws_instance.instances, each.key, null), "private_ip", null)]
-  records = [ aws_instance.instance.private_ip ]
+# records  = [lookup(lookup(aws_instance.instances, each.key, null), "private_ip", null)]
+  records  = [ aws_instance.instance.private_ip ]
 }
 
